@@ -1,5 +1,5 @@
 
-export function infoBox({children}) {
+export function InfoBox({children}) {
     return (
         <>
         {children}

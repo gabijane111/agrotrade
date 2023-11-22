@@ -1,6 +1,6 @@
 
 
-export function jobOpening({title,location}) {
+export function JobOpening({title,location}) {
     return (
         <div>
         <h2>{title}</h2>
