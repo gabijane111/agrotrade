@@ -9,19 +9,28 @@
   background-repeat: no-repeat;
 }
 
-@media (min-width:768px) {
-  .elementFlex {
-    margin-left: auto;
-  }
-  .bg-home:{
-    background-position: left;
-    background-size: contain;
-  }
+
+/* OR seperator for signup --- begin */
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
-#green-box {
-  box-shadow: 10px 20px 15px;
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #e5e7eb;
 }
 
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
+/* OR seperator for signup --- end*/
 
 
