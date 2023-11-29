@@ -24,6 +24,7 @@ export default function NavBar () {
                     
 
 
+
                     </ul>
 
                     <Link href='/auth/signup'>Sign up</Link>
