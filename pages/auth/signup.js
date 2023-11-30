@@ -5,6 +5,7 @@ import { TextField } from "@mui/material";
 import { FcGoogle } from 'react-icons/fc';
 import { FaApple } from 'react-icons/fa';
 
+
 export default function Signup () {
     const [tab,setTab] = useState('buyer');
 
