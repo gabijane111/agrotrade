@@ -19,7 +19,7 @@ export default function Index () {
         {/* bottom content */}
         <div className="bg-home w-full h-screen"></div>
 
-        <div className="md:h-screen flex flex-col justify-end gap-6 h-[40%] bg-gradient-to-b from-green-600/90 to-green-900 p-3 pb-12">
+        <div className="md:h-screen flex flex-col justify-end gap-6 h-[40%] bg-gradient-to-b from-green-600/90 to-green-900 p-3 pb-12" style={{ background: 'linear-gradient(to bottom, rgba(0, 128, 0, 0), rgba(0, 128, 0, 1)'}}>
           <div className={styles.block}>
             <h1 className={`${nunitoBold.className} text-5xl`}>
               <span className="text-white">Agro</span>
